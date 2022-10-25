@@ -3,4 +3,4 @@
 
 Gerenciar repositórios
 
-<a href="https://rimcant.github.io/html5_css3_learning_gg/Modulo-1/HTML-CSS/ex007/"> executar o exc. 007
+<a href="https://rimcant.github.io/html5_css3_learning_gg/Modulo-1/HTML-CSS/ex007/index.html"> executar o exc. 007
