@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            ;
+        }
+        table{
+            width: 95vw;
+            border-collapse: collapse;
+            text-align: left;
+            margin-right: 2vw;
+            position: relative;
+            
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 2vw;
+            background-color: lightgray;
+        }
+        td, th{
+            border:1px solid black;
+            padding: 3vh;
+            
+
+        }
+        .num{
+            text-align: right;
+        }
+        thead, tfoot{
+            background-color: grey;
+            color: white;
+        }
+        thead > tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: white;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+            text-decoration: underline;
+
+        }
+        p{
+            font-size: 2em;
+            line-height: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!-- 
+        Anatomia para tabelas grandes
+        Tabela
+        CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH        
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>Populaçao de coisas</caption>
+        <Thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 20vw">Populaçao</th>
+            </tr>
+
+        </Thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de Habitantes</th>
+                <td><strong>217 147 132</strong></td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas illo quam alias at placeat laboriosam facilis, reprehenderit mollitia? Non quia inventore veritatis voluptate sapiente ad ipsum alias, nemo quis? Distinctio. <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur iure aliquam officia explicabo, quis fugit minima culpa ea corporis sapiente <br> velit deserunt, laudantium, suscipit maxime quos unde laboriosam pariatur dolores!Lorem <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit tenetur numquam saepe, qui voluptatibus iste a recusandae omnis, laborum officiis expedita ullam eaque ipsam hic distinctio ex eius nulla temporibus.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis, mollitia minus beatae, fugiat id, culpa maiores neque architecto impedit obcaecati molestiae excepturi sed laboriosam ab eum repellendus nobis ipsam!br
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corporis iure molestias quos tempore facilis, laudantium eveniet nihil repellendus laborum, praesentium distinctio accusantium in ullam. Necessitatibus ipsum quisquam quia vel.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dicta nobis nemo quod. Numquam qui ex eos expedita nam totam reprehenderit porro. Earum soluta magni tempore. Magni fugit fuga ratione?
+        <br><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem obcaecati ullam porro facere et quae optio, id sunt quia, repudiandae voluptates minus ad esse quis, veniam eos doloribus iste omnis. <br>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio quia obcaecati at cupiditate, explicabo, pariatur eum reprehenderit laborum corrupti provident expedita eius repudiandae, vero quidem. Soluta voluptate hic sint delectus.
+    </p>
+</body>
+</html>
